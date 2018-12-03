@@ -1,0 +1,5 @@
+<launch>
+    <group ns="image_provider">
+	    <node name="image_provider" pkg="image_provider" type="image_provider.py" />
+	</group>
+</launch>
